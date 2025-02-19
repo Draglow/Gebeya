@@ -30,7 +30,7 @@ Ensure you have Python installed (version 3.8 or higher).
    ```
 2. Create a virtual environment:
    ```sh
-   python -m venv venv
+   python -m venv env
    source venv/bin/activate   # On Windows use `venv\Scripts\activate`
    ```
 3. Install dependencies:
