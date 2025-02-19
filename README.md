@@ -14,7 +14,7 @@ This is a Django-based web application that allows users to post their product i
 ## Tech Stack
 - **Backend**: Django, Django REST Framework
 - **Frontend**: HTML, CSS, JavaScript (Bootstrap)
-- **Database**: PostgreSQL / SQLite (for development)
+- **Database**: SQLite (for development)
 - **Authentication**: Django built-in authentication
 
 ## Installation
@@ -31,7 +31,7 @@ Ensure you have Python installed (version 3.8 or higher).
 2. Create a virtual environment:
    ```sh
    python -m venv env
-   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   source env/bin/activate   # On Windows use `env\Scripts\activate`
    ```
 3. Install dependencies:
    ```sh
