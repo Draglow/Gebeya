@@ -26,7 +26,7 @@ Ensure you have Python installed (version 3.8 or higher).
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/Gebeya.git
-   cd repository-name
+   cd Gebeya
    ```
 2. Create a virtual environment:
    ```sh
@@ -51,14 +51,7 @@ Ensure you have Python installed (version 3.8 or higher).
    ```
 7. Access the application at `http://127.0.0.1:8000/`.
 
-## API Endpoints (if applicable)
-| Method | Endpoint           | Description              |
-|--------|-------------------|--------------------------|
-| GET    | `/posts/`         | Retrieve all posts      |
-| POST   | `/posts/create/`  | Create a new post       |
-| POST   | `/posts/<id>/like/` | Like a post           |
-| POST   | `/posts/<id>/comment/` | Add a comment    |
-| POST   | `/comments/<id>/reply/` | Reply to comment |
+
 
 ## Contributing
 1. Fork the repository.
@@ -67,8 +60,3 @@ Ensure you have Python installed (version 3.8 or higher).
 4. Push to the branch (`git push origin feature-name`).
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For inquiries, feel free to reach out at [your email] or open an issue in the repository.
